@@ -1,0 +1,6 @@
+
+org.springframework.boot.env.EnvironmentPostProcessor = com.db.infra.DefaultProfileResolverEPP
+
+org.springframework.context.ApplicationContextInitializer = com.db.infra.ProfileSentinelApplicationInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.db.conf.Config
